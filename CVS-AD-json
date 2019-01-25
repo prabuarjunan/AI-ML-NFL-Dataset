@@ -122,18 +122,6 @@
                     {
                         "IpProtocol" : "tcp",
                         "CidrIp" : {"Ref" : "CIDRrangeforTCPandUDP"},
-                        "FromPort" : "88",
-                        "ToPort" : "88"
-                    },
-                    {
-                        "IpProtocol" : "tcp",
-                        "CidrIp" : {"Ref" : "CIDRrangeforTCPandUDP"},
-                        "FromPort" : "88",
-                        "ToPort" : "88"
-                    },
-                    {
-                        "IpProtocol" : "tcp",
-                        "CidrIp" : {"Ref" : "CIDRrangeforTCPandUDP"},
                         "FromPort" : "0",
                         "ToPort" : "65535"
                     },
